@@ -41,7 +41,8 @@ smart-scripts/
 │
 ├── folder_structure_creator.py
 ├── project_structure_creator.py
-└── tree_generator.py
+├── tree_generator.py
+└── copy_contents.py
 ```
 
 ---
@@ -133,6 +134,46 @@ my-project
 
 ```text
 tree_structure.txt
+```
+
+---
+
+
+### 📄 Copy Contents to Single File
+
+Combines all readable source files from a project into a single text file.
+
+#### Features
+
+* Recursive file scanning
+* Large file support
+* UTF-8 output
+* Directory exclusion
+* File exclusion
+* Extension exclusion
+* Relative path exclusion
+* Automatic output-file exclusion
+
+#### Example Output
+
+```text
+====================================================================
+FILE: backend/server.js
+====================================================================
+
+<contents>
+
+====================================================================
+FILE: frontend/src/App.jsx
+====================================================================
+
+<contents>
+```
+
+#### Output File
+
+```text
+all_contents.txt
 ```
 
 ---
