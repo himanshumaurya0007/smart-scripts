@@ -39,7 +39,8 @@ smart-scripts/
 ├── LICENSE
 ├── README.md
 │
-└── folder_structure_creator.py
+├── folder_structure_creator.py
+└── project_structure_creator.py
 ```
 
 ---
@@ -67,6 +68,35 @@ subjects
 │   └── module-3
 ├── Artificial-Intelligence
 └── Advanced-Artificial-Intelligence
+```
+
+---
+
+### 🏗️ Project Structure Creator
+
+Creates complete project templates including folders and files.
+
+#### Features
+
+* Recursive structure generation
+* File creation support
+* Folder creation support
+* Template file contents
+* Customizable project blueprints
+
+#### Example Output
+
+```text
+my-project
+├── README.md
+├── .gitignore
+├── frontend
+│   ├── src
+│   └── public
+└── backend
+    ├── routes
+    ├── controllers
+    └── models
 ```
 
 ---
