@@ -40,7 +40,8 @@ smart-scripts/
 ├── README.md
 │
 ├── folder_structure_creator.py
-└── project_structure_creator.py
+├── project_structure_creator.py
+└── tree_generator.py
 ```
 
 ---
@@ -97,6 +98,41 @@ my-project
     ├── routes
     ├── controllers
     └── models
+```
+
+---
+
+### 🌳 Tree Generator
+
+Generates a visual tree representation of a directory and its subdirectories.
+
+#### Features
+
+* Recursive directory traversal
+* UTF-8 tree formatting
+* Exclude files
+* Exclude directories
+* Exclude relative paths
+* Wildcard exclusion support
+* Saves output to a text file
+
+#### Example Output
+
+```text
+my-project
+├── README.md
+├── frontend
+│   ├── package.json
+│   └── src
+└── backend
+    ├── app.js
+    └── server.js
+```
+
+#### Output File
+
+```text
+tree_structure.txt
 ```
 
 ---
