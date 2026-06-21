@@ -1,0 +1,30 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# IDE settings (if using VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.iml
+
+# Python dependencies
+pip-log.txt
+pip-selfcheck.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
